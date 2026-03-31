@@ -353,6 +353,7 @@ GameObject:
   - component: {fileID: 1214988934}
   - component: {fileID: 1214988935}
   - component: {fileID: 1214988936}
+  - component: {fileID: 1214988937}
   m_Layer: 0
   m_Name: Ember_0
   m_TagString: Untagged
@@ -520,6 +521,18 @@ CapsuleCollider2D:
   m_Offset: {x: -1.188929, y: 0.45684266}
   m_Size: {x: 2.8812, y: 4.4791713}
   m_Direction: 0
+--- !u!114 &1214988937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214988931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0220e60eefe0f6847af0eb4ca408b5c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
 --- !u!1 &1996703285
 GameObject:
   m_ObjectHideFlags: 0
